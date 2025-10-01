@@ -1,0 +1,10 @@
+[template]
+# 直接在当前目录生成而不是创建一个新的子文件夹（true）
+init = false
+exclude = ["cliff.toml"]
+#ignore = ["cliff.toml"]
+
+[placeholders]
+
+# GitHub 用户名（强制用户输入）
+github-username = { type = "string", prompt = "GitHub username", required = false, default = "floation-cutie" }
